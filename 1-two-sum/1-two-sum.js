@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
- let map = {};
+const map = {};
     
     for(let i = 0; i < nums.length; i++) {
         if(target - nums[i] in map) {
