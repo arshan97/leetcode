@@ -6,8 +6,8 @@
 // [1, 2, 3, 4]
 
 var productExceptSelf = function(nums) {
-    let product = 1;
     let res = [];
+    let product = 1;
     
     for (let i = 0; i < nums.length; i++) {
         res[i] = product;
