@@ -13,7 +13,6 @@ var topKFrequent = function(nums, k) {
             hash[num]++
         }
     }
-    console.log(hash)
     
     const bucket = []
     
